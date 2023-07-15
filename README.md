@@ -65,7 +65,6 @@ https://www.youtube.com/watch?v=3tZ7K53c6Gk
        https://www.youtube.com/watch?v=tpsB99ulDto&t=499s
 
 
-
       =============================================
       Building an Ecommerce Website Sanity, Drizzle, Postgres
       By Hamza
@@ -123,6 +122,44 @@ Sanaty
       video-3
       https://www.youtube.com/watch?v=j88xcWneUp0&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=4
      
+
+     ===========================Git
+     touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+ 
+# Push an existing repository from the command line
+ 
+git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git push -u origin master
+
       git init
-      git add
+      git add .
+      git commit -m "message"
+      git remote add origin https://github.com/Asifalishaikh/E-Store-Hakathone
+
+
+      
+      Hmza Syed
+      Part:1      https://www.youtube.com/watch?v=3scmejwWaJQ
+
+
+      ========Project 
+      Next.js
+      Shadcn : Design
+      sanity : product schmea : (in replacemnt of content ful)
+      Sanity : GROQ language to fetch data
+      useCdn : to cash data on CDN (Vid: 1:27:00)
+
+      drizzle:
+      Redux : to hanle global variable in app : Add To Card
+                  KV/ Vercel database : AdToCard      
+      
+      Pyments: Stripe
+      Postgress
+
+
       
