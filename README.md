@@ -197,3 +197,8 @@ git push -u origin master
       ===================change pics with baloch culture pics
       
       https://www.bing.com/images/search?view=detailv2&iss=sbi&form=SBIIDP&sbisrc=ImgDropper&q=imgurl:https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&idpbck=1&selectedindex=0&id=https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&ccid=PDXjn6nB&simid=608000394197533917&ck=35D2A007F425D5A784942F4BBDA7FD69&thid=OIP.PDXjn6nBk-vaDNOzZB-elgAAAA&mediaurl=https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&exph=710&expw=474&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.3c35e39fa9c193ebda0cd3b3641f9e96%3Frik%3D4j6pSh%252bu6MSGWw%26pid%3DImgRaw%26r%3D0&vt=2&sim=11
+      =============================================
+      https://www.youtube.com/watch?v=d9TmKCJRhPM&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=9
+      Data Types 
+
+      ssg/ cliendt side

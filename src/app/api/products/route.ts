@@ -13,7 +13,16 @@ export async function GET() {
     
 })
     try {
-        const response = await client.fetch(`*[_type == "product"]`)
+        const response = await client.fetch(`*[_type == "product"]{ price,
+            _id,
+            productName,
+            image,
+            size,
+            category->{
+              name  
+            }
+
+        }`)
         console.log(response);
         return NextResponse.json({response})
         

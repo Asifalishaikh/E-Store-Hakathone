@@ -1,7 +1,7 @@
 "use client" // added Header should always 
 
 import Image from "next/image";
-import logo from "/public/logo.webp";
+import logo from "../../../public/Logo.webp";
 import Link from "next/link";
 import { useSelector } from "react-redux"; // added
 import { RootState } from "@/store/store"; // added
