@@ -1,10 +1,12 @@
+import { defineField } from "sanity";
+
 export const product = {
   name: "product",
   type: "document",
   title: "Product",
   fields: [
     {
-      name: "productName",
+      name: "productName",//title (in Hamza syed )
       type: "string",
       title: "Product Name",
     },
@@ -69,12 +71,27 @@ export const product = {
       type: "number",
       title: "Quantity",
     },
+  
 
-    {
-      name: "directors",
-      title: "Directors",
-      type: "array",
-      of: [{ type: "string" }],
-    },
-  ],
-};
+    // {
+    //   name: "directors",
+    //   title: "Directors",
+    //   type: "array",
+    //   of: [{ type: "string" }],
+    // }    
+
+    defineField(
+      {
+      name: "category",
+      title: "Product Catagory",
+      type: "reference",
+      to: [
+        {
+            type:"category"
+        }
+      ]
+    }),//defineField
+  ]
+}
+  
+  

@@ -16,6 +16,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        promocart1:"",
+        promocart2:"",
+        promocart3:"",
+        promocart4:"",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

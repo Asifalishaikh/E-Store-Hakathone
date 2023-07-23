@@ -54,8 +54,23 @@ WRAP => image in <Link> components>laout> Header.tsx
       <Image src={logo} alt="Compony Logo" />
       </Link>
 
-part 3
-lecturee about Responsiveness almost. 
+
+SANITY 
+Building an Ecommerce Website Sanity, Drizzle, Postgres
+Hmaza PART 2  
+https://www.youtube.com/watch?v=48R37Co_5OA
+35:00
+*[_type=="product"]{
+  price,
+    _id, 
+    productName,  (title)
+    image,
+    category ->{
+      name
+    }
+}
+
+Hmaza part 3 lecturee about Responsiveness almost. 
 https://www.youtube.com/watch?v=3tZ7K53c6Gk
 
 
@@ -82,6 +97,7 @@ https://www.youtube.com/watch?v=3tZ7K53c6Gk
 
       AddToCart
       https://www.youtube.com/watch?v=nqcH9eedzuk
+      https://www.youtube.com/watch?v=48R37Co_5OA
 
       ==========================================================
 
@@ -103,15 +119,12 @@ go to Provder and wrap as child
 
 Payment Method
 https://www.youtube.com/watch?v=qNzwWyRliXI
-am
 
 Advertisement
       https://youtu.be/LqHQlIAfYaA
 
 
-
-      ==========================
-      
+     ==========================     
       to render image direct from site method video: 1:26
       https://www.youtube.com/watch?v=V8FkyS4SMFQ&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=3
 
@@ -122,6 +135,16 @@ Sanaty
       video-3
       https://www.youtube.com/watch?v=j88xcWneUp0&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=4
      
+
+     video fetching Data in Next.js
+      https://www.youtube.com/watch?v=yyL7zbKol7A&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=6
+     creates 
+     api>products>route.tsx
+     install Thunder client app in next.js in replace of Post man
+     
+     
+===============Data fetching in Next.js from sanity
+// to create conection b/w sanity and next.js use sanity createClient
 
      ===========================Git
      touch README.md
@@ -162,4 +185,15 @@ git push -u origin master
       Postgress
 
 
+
+
+
+
+
+
+
+
+
+      ===================change pics with baloch culture pics
       
+      https://www.bing.com/images/search?view=detailv2&iss=sbi&form=SBIIDP&sbisrc=ImgDropper&q=imgurl:https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&idpbck=1&selectedindex=0&id=https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&ccid=PDXjn6nB&simid=608000394197533917&ck=35D2A007F425D5A784942F4BBDA7FD69&thid=OIP.PDXjn6nBk-vaDNOzZB-elgAAAA&mediaurl=https%3A%2F%2Fstatic-01.daraz.pk%2Foriginal%2F3c35e39fa9c193ebda0cd3b3641f9e96.jpg&exph=710&expw=474&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.3c35e39fa9c193ebda0cd3b3641f9e96%3Frik%3D4j6pSh%252bu6MSGWw%26pid%3DImgRaw%26r%3D0&vt=2&sim=11

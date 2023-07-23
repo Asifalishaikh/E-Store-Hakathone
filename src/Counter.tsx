@@ -8,13 +8,13 @@
 
 
 // const CounterView = () => {
-// // after state.counterSlice.value. initiate dispatch > then call in (Vid-1:15) 
+// // after state.counterSlice.value. initiate dispatch > then call in (Vid-1:15)
 //   const dispatch = useDispatch();
 
 //   //const counterValue = 0;           callBack func > slected value form store
 //   const counterValue = useSelector(
 //     (state: RootState) => state.counterSlice.value);
-// //Vid-1:15 counterActions.increment are values comes from store to perform acion to change value on click 
+// //Vid-1:15 counterActions.increment are values comes from store to perform acion to change value on click
 //   const increment = () => {
 //     dispatch(counterActions.increment())
 //   };
@@ -36,3 +36,9 @@
 // };
 
 // export default CounterView;
+
+// types Defining
+//( message as {message:string, index:number}). 
+let message = {
+    message:"hi"
+}
