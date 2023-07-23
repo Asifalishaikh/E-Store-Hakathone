@@ -33,10 +33,10 @@ interface IProduct {
 
       //description: string,
     }
-// IMQGE URL GENERATON IS NOT WORKING HERE IN DIV.
+// IMAGE URL GENERATON IS NOT WORKING HERE IN DIV.
 
 export default async function Home() {
-  const data: IProduct[]= await getProductData() 
+  //const data: IProduct[]= await getProductData()  //Hmaza 
 return (<div>
   <Hero />
    <ProductPromoSection />
@@ -48,6 +48,17 @@ return (<div>
  
 }
 
+// inter ISR video 6 
+//  https://www.youtube.com/watch?v=yyL7zbKol7A&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=8
+// export const getProductData = async () => {
+//   const resp = await fetch("http://localhost:3000/api/products", {
+//     next:revalidate: 60
+//   });
+//   if (!resp.ok) {
+//     throw new Error ("failed to fetch data")
+//   }
+
+// return resp.json() 
 
 
 // return ( 
