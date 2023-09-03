@@ -39,6 +39,6 @@
 
 // types Defining
 //( message as {message:string, index:number}). 
-let message = {
-    message:"hi"
-}
+// let message = {
+//     message:"hi"
+// }

@@ -20,6 +20,7 @@ const initialState: CounterState = {
 
 // FUNCTION OBJECT==> UNIQUE NAME = "counter" & initil state value
 export const cartSlice = createSlice({
+  
   name: 'cart',// every counter have a unique name as counter here,
 
   // payload start here
@@ -31,7 +32,8 @@ export const cartSlice = createSlice({
      
     },
     deleteFromCart: (state, actions: PayloadAction<any>) => {
-     state.totalQuantity-= actions.payload.quantity
+     
+    state.totalQuantity -= actions.payload.quantity
       
     },
     clearCart: (state) => {

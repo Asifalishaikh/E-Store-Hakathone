@@ -201,4 +201,9 @@ git push -u origin master
       https://www.youtube.com/watch?v=d9TmKCJRhPM&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=9
       Data Types 
 
-      ssg/ cliendt side
+      server side Generation
+      cliendt side generation
+      static side Generarion
+      incremental static Generation
+
+      

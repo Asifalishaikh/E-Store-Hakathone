@@ -1,4 +1,3 @@
-import { defineField } from "sanity";
 
 export const product = {
   name: "product",
@@ -80,7 +79,7 @@ export const product = {
     //   of: [{ type: "string" }],
     // }    
 
-    defineField(
+  
       {
       name: "category",
       title: "Product Catagory",
@@ -90,7 +89,7 @@ export const product = {
             type:"category"
         }
       ]
-    }),//defineField
+    },//defineField
   ]
 }
   

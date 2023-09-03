@@ -7,6 +7,7 @@ export const ProductsData: ProductTypes[] = [
     {
         id: 1,
         name: 'Flex Sweatshirt',
+        tagline:"Sweatshirt",
         category: 'Female',
         price: 150,
         image:P1
@@ -14,6 +15,7 @@ export const ProductsData: ProductTypes[] = [
     {
         id: 2,
         name: 'Instyle Sweatshirt',
+        tagline:"Sweatshirt",
         category: 'Female',
         price: 200,
         image:P2
@@ -21,20 +23,23 @@ export const ProductsData: ProductTypes[] = [
     {
         id: 3,
         name: 'Black Sweatshirt',
+        tagline:"Sweatshirt",
         category: 'Female',
         price: 250,
         image:P3
     },
     {
         id: 4,
-        name: 'Black Sweatshirt',
+        name: 'T Shirt',
+        tagline:"Shirt",
         category: 'Male',
         price: 250,
         image:P3
     },
     {
         id: 5,
-        name: 'Black Sweatshirt',
+        name: 'Kids Cloths',
+        tagline:"Cloths",
         category: 'Kids',
         price: 250,
         image:P3

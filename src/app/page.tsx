@@ -5,48 +5,59 @@ import { client } from "@/lib/sanityClient";
 import { Image as IImage } from "sanity";
 import Image from "next/image";
 
+import BASE_PATH_API from "@/components/shared/BasePath";
 
-export const getProductData = async () => {
-    const resp = await client.fetch(`*[_type=="product"]{
-    price,
-    _id,
-    productName,
-    image,
-    size,
-    category->{
-      name  
-    }
-  }`);
-return resp  
-}
-
-interface IProduct {
-      // title: string,
-  productName: string,
-  image: IImage,
-  price: number,
-  _id: string,
-  size: string,
-  category: {
-    name:string
+async function getProductData () {
+  const res = await fetch(`${BASE_PATH_API}/api/products`);
+  if (!res.ok) {
+    throw new Error("FAILED TO FETCH DATA")
   }
-
-      //description: string,
-    }
-// IMAGE URL GENERATON IS NOT WORKING HERE IN DIV.
+  return res.json();
+}
 
 export default async function Home() {
+
+
+
+
+  
   //const data: IProduct[]= await getProductData()  //Hmaza 
-return (<div>
+  let {response} = await getProductData();
+  console.log("response : " ,response);
+    return (
+    <div>
   <Hero />
-   <ProductPromoSection />
-    {/* <PromoTemplete/> */}
-    <ProductList />;
- 
+  <ProductPromoSection />  
+       {/* <PromoTemplete/> */}
+    <ProductList />  
  </div>
- )
- 
+  ) 
 }
+  //   const resp = await client.fetch(`*[_type=="product"]{
+  //   price,
+  //   _id,
+  //   productName,
+  //   image,
+  //   size,
+  //   category->{
+  //     name
+  //   }
+  // }`);
+  
+// interface IProduct {
+//       // title: string,
+//   productName: string,
+//   image: IImage,
+//   price: number,
+//   _id: string,
+//   size: string,
+//   category: {
+//     name:string
+//   }
+//  //description: string,
+//     }
+// IMAGE URL GENERATON IS NOT WORKING HERE IN DIV.
+
 
 // inter ISR video 6 
 //  https://www.youtube.com/watch?v=yyL7zbKol7A&list=PL0VhnZARkgZOQ_S-OlkS3ypYFN2gfrv_S&index=8
@@ -70,4 +81,3 @@ return (<div>
       
 //     ))}
 //   </div>
-// )

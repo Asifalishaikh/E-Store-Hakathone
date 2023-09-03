@@ -1,6 +1,6 @@
 import { defineType, defineField } from "sanity";
 
-export const category =defineType( { 
+export const category = defineType( { 
   name: "category",
   title: "Category",
   type: "document",
